@@ -91,15 +91,15 @@ ID,Title,Author,Year,Category,Subcategory,Status,Rating,Notes,ISBN,Format
 
 **Column Definitions:**
 
-- `ID`: Unique identifier (e.g., CS-001, PHYS-045) 
+- `ID`: Unique identifier (e.g., CS-001, PHYS-045)
 - `Title`: Book title Author: Author(s)
 - `Year`: Publication year
-- `Category`: Main category (CS, CE, PHYS, MECH, MATH, AI, DRONE) 
-- `Subcategory`: Specific field/topic 
-- `Status`: Reading status (To-Read, Reading, Completed, Reference) 
+- `Category`: Main category (CS, CE, PHYS, MECH, MATH, AI, DRONE)
+- `Subcategory`: Specific field/topic
+- `Status`: Reading status (To-Read, Reading, Completed, Reference)
 - `Rating`: Personal rating (1-5)
-- `Notes`: Key takeaways or comments 
-- `ISBN`: International Standard Book Number 
+- `Notes`: Key takeaways or comments
+- `ISBN`: International Standard Book Number
 - `Format`: Physical, PDF, EPUB, etc.
 
 #### File Organization
@@ -170,6 +170,21 @@ MrRed0x-Library/
 3. Add Notes: Populate the Notes column with key takeaways
 4. Generate Stats: Use scripts to track reading habits
 5. Cross-reference: Link related books across categories
+
+## 🤖 Scripts
+
+for runing scripts, First create virtual Environment and activate it:
+
+```sh
+python -m venv .venv
+
+# Linux
+source ./.venv/bin/activate
+
+python -m pip install requirements.txt
+```
+
+after runing these command you're free to run scripts inside `script/` folder.
 
 ## 📈 Statistics & Tracking
 
