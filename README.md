@@ -208,7 +208,7 @@ If you have book recommendations that align with my interests:
 
 ## 📄 License
 
-This repository is for personal educational use. Book listings contain only metadata (titles, authors, etc.), not the actual book content. Always respect copyright and purchase books to support authors.
+This repository is for personal educational use. Book listings contain only metadata (titles, authors, etc.), not the actual book content. Always respect copyright and purchase books to support authors. you can find original books in my [telegram channel](https://t.me/Red0x_Library).
 
 ## 📍 Last Updated
 *Repository maintained by Mr_Red0x*
