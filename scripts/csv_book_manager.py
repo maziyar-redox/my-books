@@ -264,7 +264,7 @@ if __name__ == "__main__":
         validateFile = mainFunc(getUserFileInput)
         #getFileId = validateFile.tail(1)["ID"].tolist()[0]
 
-        logging.info('Categories are "CS", "CE", "PHYS", "MECH", "MATH", "AI", "DRONE"')
+        logging.info('Categories are "CS", "CE", "PHYS", "MECH", "MATH", "AI", "DRONE", "OTHER"')
         logging.info('Status are "to-read", "reading", "completed", "reference"')
         getUserFileInputChoice = str(input("Choise between bulk or single mode: (b for bulk, s for single) "))
         data_tmp = {
@@ -310,6 +310,7 @@ if __name__ == "__main__":
                 while True:
                     if idx == len(columns):
                         logging.info("Adding is finished")
+                        idx = 0
                         break
                     getUserInput = str(input(f"Enter {columns[idx]}: "))
                     data_tmp[columns[idx]] = getUserInput
