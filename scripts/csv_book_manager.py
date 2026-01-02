@@ -98,7 +98,7 @@ book_schema = pa.DataFrameSchema(
         "Title": Column(str, checks=Check.str_length(min_value=1), nullable=False, unique=True),
         "Author": Column(str, nullable=True),
         "Year": Column(str, checks=Check.str_matches(r'^\d{4}$|^$'), nullable=True), # 4 digits or empty
-        "Category": Column(str, checks=Check.isin(["CS", "CE", "PHYS", "MECH", "MATH", "AI", "DRONE"]), nullable=False),
+        "Category": Column(str, checks=Check.isin(["CS", "CE", "PHYS", "MECH", "MATH", "AI", "DRONE", "OTHER"]), nullable=False),
         "Subcategory": Column(str, checks=Check.str_length(min_value=1), nullable=False),
         "Status": Column(str, checks=Check.isin(["to-read", "reading", "completed", "reference"]), nullable=False),
         "Rating": Column(str, checks=Check.str_matches(r'^[0-5](\.[0-9])?$|^$'), nullable=False), # e.g., 4.2

@@ -1,3 +1,12 @@
 ID,Title,Author,Year,Category,Subcategory,Status,Rating,Notes,ISBN,Format
 CS-001,Advanced JavaScript,Zachary Shute,2019,CS,javascript,completed,4,nothing,978-1-78980-010-4,pdf
 CS-002,Algorithm And Flowchart,Bahram gholami,1384,CS,algorithms,completed,3.2,nothing,964-6761-19-4,pdf
+CS-003,Automate the boring stuff with python,Al sweigart,2020,CS,python,completed,3,nothing,978-1-59327-992-9,pdf
+CS-004,Beginning Git and Github,Mariot Tsitoara,2020,CS,git,completed,2.5,nothing,978-1-4842-5312-0,pdf
+CS-005,Developing microservices with nodejs,David Gonalez,2016,CS,"microservices, nodejs",completed,0.5,Shity book,978-1-78588-740-6,pdf
+CS-006,Grokking Algorithms,Aditya Bhargava,2016,CS,algorithms,completed,3.2,nothing,978-1617292231,pdf
+CS-007,Mastering Go,Mikhalis Tsoukalos,2024,CS,golang,completed,4.2,nothing,978-1-80512-714-7,pdf
+CS-008,Pro typescript,Steve Fenton,2018,CS,typescript,completed,3,nothing,978-1-4842-3248-4,pdf
+CS-009,python crash cource,Eric Matthes,2023,CS,python,completed,4,nothing,978-1-7185-0270-3,pdf
+CS-010,Seven databases in seven weeks,Eric redmond,2012,CS,databases,completed,2.5,nothing,978-1-93435-962-0,pdf
+CS-011,CompTIA network+,Scott Jernigan,2022,CS,networking,completed,3,nothing,978-1-26-426906-8,pdf
